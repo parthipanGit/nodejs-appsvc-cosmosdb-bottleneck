@@ -9,7 +9,7 @@ on:
         - main
 
 env:
-  AZURE_WEBAPP_NAME: "Az_DemoHarAPP.azurewebsites.net"    # set this to your application's name
+  AZURE_WEBAPP_NAME: "ZG9lc24ndCBleGlzdA"    # set this to your application's name
   LOAD_TEST_RESOURCE: "Parthipan"
   LOAD_TEST_RESOURCE_GROUP: "AZ_demo1"
   AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
