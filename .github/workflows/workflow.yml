@@ -9,14 +9,14 @@ on:
         - main
 
 env:
-  AZURE_WEBAPP_NAME: "ZG9lc24ndCBleGlzdA"    # set this to your application's name
-  LOAD_TEST_RESOURCE: "Parthipan"
-  LOAD_TEST_RESOURCE_GROUP: "AZ_demo1"
+  AZURE_WEBAPP_NAME: "azdemo546"    # set this to your application's name
+  LOAD_TEST_RESOURCE: "AzLoadTestdemo"
+  LOAD_TEST_RESOURCE_GROUP: "azdemo546eastus-rg"
   AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
   NODE_VERSION: '14.15.1'                # set this to the node version to use
-  LOCATION: "West US"
-  APPINSIGHTLOCATION: "West US"
-  DATABASEACCOUNTLOCATION: "westus"
+  LOCATION: "East US"
+  APPINSIGHTLOCATION: "East US"
+  DATABASEACCOUNTLOCATION: "eastus"
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
